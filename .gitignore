@@ -1,0 +1,107 @@
+## Ignore arquivos de build e temporários do Visual Studio
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.log
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio 2015/2017/2019/2022 cache/options directory
+.vs/
+# Se usar VS Code, pode adicionar:
+.vscode/
+
+# Arquivos de backup do Visual Studio
+*.bak
+*.backup
+*.tmp
+
+# Arquivos de configuração temporários
+*.dbmdl
+*.dbmdl-journal
+*.pdb
+
+# IIS Express
+/.vs
+/.vs/
+
+# Rider
+.idea/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Testes
+TestResults/
+*.coverage
+*.coveragexml
+
+# Pacotes NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+# Para NuGet v3+
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Diretórios de publicação e publicação temporária
+publish/
+out/
+# Ferramentas de deploy do Visual Studio
+.deploy/
+.scannerwork/
+
+# Arquivos gerados por ferramentas
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Arquivos do Azure
+*.azurePubxml
+*.azurePubxml.user
+# Diretórios de configurações do Azure
+.scm/
+App_Data/
+
+# Arquivos do SQL Server
+*.mdf
+*.ldf
+*.ndf
+
+# Arquivos de senhas
+*.pfx
+*.publishsettings
+
+# Arquivos do Docker
+docker-compose*.yml
+.dockerignore
+
+# Diretórios de build do Angular/React (se tiver front end junto)
+dist/
+node_modules/
+npm-debug.log
+
+# Arquivos gerados por ferramentas de documentação
+docfx_project/_site/
+docfx_project/_raw/
+
+# Outros
+*.swp
+*.swn
+*.bak
+*.tmp
+
