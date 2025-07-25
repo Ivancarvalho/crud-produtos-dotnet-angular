@@ -1,8 +1,7 @@
 // Caminho: api-produtos-dotnet/Models/Produto.cs
-
 using System;
 
-namespace api_produtos_dotnet.Models
+namespace ApiProdutos.Models
 {
     public class Produto
     {
@@ -14,4 +13,5 @@ namespace api_produtos_dotnet.Models
         public bool Ativo { get; set; }
         public bool Excluido { get; set; }
     }
+   
 }

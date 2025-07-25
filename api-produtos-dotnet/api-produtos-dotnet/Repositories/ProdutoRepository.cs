@@ -1,11 +1,11 @@
 // Caminho: api-produtos-dotnet/Repositories/ProdutoRepository.cs
 
-using api_produtos_dotnet.Models;
+using ApiProdutos.Models;
 using Npgsql;
 using Dapper;
 using System.Collections.Generic;
 
-namespace api_produtos_dotnet.Repositories
+namespace ApiProdutos.Models.Repositories
 {
     public class ProdutoRepository
     {

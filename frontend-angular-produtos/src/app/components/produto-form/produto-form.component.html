@@ -1,0 +1,27 @@
+<div class="container">
+  <h2>{{ editando ? 'Editar Produto' : 'Novo Produto' }}</h2>
+  <form (ngSubmit)="salvar()">
+    <label>Código:</label>
+    <input [(ngModel)]="produto.codigo" name="codigo" required />
+
+    <label>Descrição:</label>
+    <input [(ngModel)]="produto.descricao" name="descricao" required />
+
+    <label>Departamento:</label>
+    <select [(ngModel)]="produto.departamentoCodigo" name="departamentoCodigo" required>
+      <option *ngFor="let d of departamentos" [value]="d.codigo">
+        {{ d.descricao }}
+      </option>
+    </select>
+
+    <label>Preço:</label>
+    <input type="number" [(ngModel)]="produto.preco" name="preco" required min="0" step="0.01" />
+
+    <label>
+      <input type="checkbox" [(ngModel)]="produto.ativo" name="ativo" /> Ativo
+    </label>
+
+    <button type="submit">Salvar</button>
+    <button type="button" (click)="cancelar()">Cancelar</button>
+  </form>
+</div>
