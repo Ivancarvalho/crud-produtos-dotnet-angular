@@ -1,6 +1,8 @@
+// Caminho: api-produtos-dotnet/Models/Produto.cs
+
 using System;
 
-namespace ApiProdutos.Models
+namespace api_produtos_dotnet.Models
 {
     public class Produto
     {
@@ -11,11 +13,5 @@ namespace ApiProdutos.Models
         public decimal Preco { get; set; }
         public bool Ativo { get; set; }
         public bool Excluido { get; set; }
-    }
-
-    public class Departamento
-    {
-        public string Codigo { get; set; }
-        public string Descricao { get; set; }
     }
 }
